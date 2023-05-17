@@ -10,11 +10,13 @@ body {
   background-image: url(/img/pngtree-galaxy-background-with-pink-color-effect-picture-image_1246343.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 img {
   height: 240px;
   object-fit: cover;
+  
 }
 p {
   color: aliceblue;
@@ -47,6 +49,9 @@ p {
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-
   min-height: 85.1vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
